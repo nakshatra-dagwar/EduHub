@@ -1,0 +1,94 @@
+.navbar {
+  width: 100vw;
+  height: 5.7vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: #FFF4C2; /* cream hero like */
+  border-bottom: 1px solid #e0e0e0;
+  box-shadow: 0 2px 8px rgba(30,60,90,0.06);
+  box-sizing: border-box;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #00BC83;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.navbar-link {
+  text-decoration: none;
+  color: #0B0F0D;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.navbar-link:hover {
+  color: #00BC83;
+}
+
+.brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.userIcon {
+  font-size: 24px;
+  margin-right: 4px;
+  vertical-align: middle;
+}
+
+.userMenu {
+  position: absolute;
+  top: 2.5rem;
+  right: 0;
+  background: #fff;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(30,60,90,0.09);
+  min-width: 140px;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+}
+
+.userMenuBtn {
+  width: 100%;
+  background: none;
+  border: none;
+  padding: 0.75rem 1rem;
+  text-align: left;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.navbar-user {
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-left: 1.5rem;
+}
+
+@media (max-width: 600px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0.7rem 1rem;
+  }
+  .navbar-links {
+    gap: 1rem;
+    width: 100%;
+    margin-top: 0.5rem;
+  }
+}

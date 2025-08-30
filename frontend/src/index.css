@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-white text-slate-900;
+  font-family: 'Montserrat', ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+/* Brand utility helpers */
+.btn-brand { @apply bg-brand text-white rounded-lg px-4 py-2 font-semibold hover:bg-brand-600; }
+.btn-accent { @apply bg-accent text-slate-900 rounded-lg px-4 py-2 font-semibold; }
+/* Use Tailwind's built-in utilities directly: text-brand, bg-brand, bg-accent */
+
+/* Global headings and links */
+h1, h2, h3, h4, h5, h6 { @apply text-slate-900; }
+a { @apply text-brand; }
+a:hover { @apply underline; }
+
+/* Cards */
+.card { @apply bg-white rounded-2xl shadow-soft p-6; }
+
+/* Sections */
+.section { @apply py-12; }
+.section-muted { @apply bg-slate-50; }

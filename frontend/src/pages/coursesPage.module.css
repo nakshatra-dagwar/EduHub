@@ -1,0 +1,31 @@
+.page {
+	min-height: 100vh;
+	width: 100vw;
+	padding: 7rem 1.5rem 3rem 1.5rem;
+	background: linear-gradient(180deg, #FFF4C2 0%, #FFFBEA 60%, #e9fff7 100%);
+}
+
+.title {
+	font-size: 1.875rem;
+	font-weight: 800;
+	color: #00BC83;
+	letter-spacing: 0.02em;
+	margin-bottom: 2rem;
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: repeat(1, minmax(0, 1fr));
+	gap: 1.5rem;
+}
+
+@media (min-width: 640px) {
+	.grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (min-width: 1024px) {
+	.grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+}
+@media (min-width: 1280px) {
+	.grid { grid-template-columns: repeat(5, minmax(0, 1fr)); }
+}
+

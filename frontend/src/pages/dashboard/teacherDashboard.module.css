@@ -1,0 +1,22 @@
+.wrapper { display: flex; flex-direction: column; min-height: 100vh; height: 100vh; width: 100vw; }
+.nav { flex: 0 0 5.5rem; height: 5.5rem; z-index: 100; }
+.layout { display: flex; flex: 1; min-height: 0; width: 100vw; background: linear-gradient(180deg, #FFF4C2 0%, #FFFBEA 60%, #e9fff7 100%); }
+
+.sidebar { width: 240px; background: #00BC83; color: #0B0F0D; padding: 2.5rem 1.2rem; display: flex; flex-direction: column; justify-content: space-between; box-shadow: 2px 0 8px rgba(15,23,42,0.10); }
+.sidebarTitle { font-weight: bold; font-size: 24px; margin-bottom: 36px; text-align: center; letter-spacing: 1px; color: #FFFBEA; }
+.sideBtn { background: transparent; color: #0B0F0D; border: none; border-radius: 8px; padding: 1rem 1.2rem; margin-bottom: 8px; font-weight: 500; font-size: 17px; cursor: pointer; text-align: left; transition: background 0.2s; width: 100%; display: block; }
+.sideBtnActive { background: #FFF4C2; box-shadow: 0 2px 8px rgba(15,23,42,0.10); }
+.logout { background: #FFF4C2; color: #0B0F0D; border: none; border-radius: 8px; padding: 0.9rem 1.2rem; font-weight: 600; font-size: 16px; cursor: pointer; margin-top: 24px; box-shadow: 0 2px 8px rgba(15,23,42,0.10); width: 100%; display: block; }
+
+.main { flex: 1; display: flex; flex-direction: column; align-items: center; padding: 2.5rem 2rem; min-height: 0; background: transparent; overflow-y: auto; width: 100%; }
+.container { width: 100%; }
+.card { background: #fff; border-radius: 12px; box-shadow: 0 6px 24px rgba(15,23,42,0.06); padding: 32px; margin-bottom: 32px; width: 100%; }
+.cardNarrow { max-width: 600px; }
+.cardWide { max-width: 700px; }
+.cardTitle { font-weight: 800; font-size: 24px; margin-bottom: 18px; color: #00BC83; }
+.muted { color: #334155; }
+.input, .select, .textarea { padding: 0.9rem; border-radius: 7px; border: 1.5px solid #bfc7d1; font-size: 17px; background: #fff; }
+.buttonPrimary { background: #00BC83; color: #fff; border: none; border-radius: 8px; padding: 1rem 2.2rem; font-weight: 700; font-size: 18px; cursor: pointer; box-shadow: 0 2px 8px rgba(15,23,42,0.10); transition: background 0.2s; }
+.joinLink { color: #00BC83; font-weight: 700; font-size: 16px; }
+.sectionBox { margin-bottom: 22px; background: #f3f6fa; border-radius: 8px; padding: 18px; box-shadow: 0 1px 4px rgba(15,23,42,0.04) }
+
