@@ -217,7 +217,7 @@ This project is licensed under the ISC License.
 
 ## 🔗 Related Projects
 
-- [EduHub Frontend](../eduhub-frontend) - React-based frontend application
+- [EduHub Frontend](../frontend) - React-based frontend application
 
 
 ---
