@@ -11,8 +11,8 @@ EduHub is a full-stack educational platform designed to facilitate online learni
 This repository contains four main projects:
 
 ### Main Implementation
-- **[EduHub Backend](./eduhub-backend)** - Node.js/Express API with TypeScript and PostgreSQL
-- **[EduHub Frontend](./eduhub-frontend)** - React/TypeScript frontend with Tailwind CSS
+- **[Backend](./backend)** - Node.js/Express API with TypeScript and PostgreSQL
+- **[Frontend](./frontend)** - React/TypeScript frontend with Tailwind CSS
 
 
 
@@ -93,7 +93,7 @@ This repository contains four main projects:
 
 1. **Navigate to backend directory**
    ```bash
-   cd eduhub-backend
+   cd backend
    ```
 
 2. **Install dependencies**
@@ -125,7 +125,7 @@ This repository contains four main projects:
 
 1. **Navigate to frontend directory**
    ```bash
-   cd eduhub-frontend 
+   cd frontend 
    ```
 
 2. **Install dependencies**
